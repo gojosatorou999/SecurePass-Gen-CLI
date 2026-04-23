@@ -2,7 +2,7 @@
 
 A lightweight, cryptographically secure Command Line Interface (CLI) random password generator built with Python.
 
-## Features
+# Features
 - **Secure Randomness**: Uses Python's `secrets` module, which provides access to the most secure source of randomness that your operating system provides.
 - **Customizable**: Choose password length and toggle uppercase, digits, and symbols.
 - **Simple Syntax**: Clean CLI interface for quick generation.
