@@ -10,7 +10,7 @@ A lightweight, cryptographically secure Command Line Interface (CLI) random pass
 ## How It Works
 Modern password generation requires high-entropy randomness to prevent brute-force attacks. This tool avoids the standard `random` module (which is pseudo-random and predictable) and instead utilizes `secrets.choice()` to ensure each character is selected with cryptographic strength.
 
-### Password Logic
+### Password Logic :
 1. **Character Pools**: The script constructs a pool of characters based on user input (Lowercase, Uppercase, Numbers, Special Symbols).
 2. **Entropy Selection**: It draws characters from the pool using the OS-level CSPRNG (Cryptographically Secure Pseudo-Random Number Generator).
 3. **Validation**: Ensures the length meets user requirements.
