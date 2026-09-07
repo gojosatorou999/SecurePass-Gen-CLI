@@ -14,7 +14,7 @@ Modern password generation requires high-entropy randomness to prevent brute-for
 1. **Character Pools**: The script constructs a pool of characters based on user input (Lowercase, Uppercase, Numbers, Special Symbols).
 2. **Entropy Selection**: It draws characters from the pool using the OS-level CSPRNG (Cryptographically Secure Pseudo-Random Number Generator).
 3. **Validation**: Ensures the length meets user requirements.
-
+  
 ## Usage
 
 ### Basic Generation (16 characters, all types)
