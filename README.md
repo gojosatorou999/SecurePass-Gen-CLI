@@ -6,7 +6,7 @@ A lightweight, cryptographically secure Command Line Interface (CLI) random pass
 - **Secure Randomness**: Uses Python's `secrets` module, which provides access to the most secure source of randomness that your operating system provides.
 - **Customizable**: Choose password length and toggle uppercase, digits, and symbols.
 - **Simple Syntax**: Clean CLI interface for quick generation.
-
+  
 ## How It Works
 Modern password generation requires high-entropy randomness to prevent brute-force attacks. This tool avoids the standard `random` module (which is pseudo-random and predictable) and instead utilizes `secrets.choice()` to ensure each character is selected with cryptographic strength.
    
